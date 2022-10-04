@@ -38,6 +38,12 @@ const app = {
             image: "./assets/img/thichthich.jpg"
         },
         {
+            name: "The Gioi Trong Em",
+            singer: "Huong Ly",
+            path: "./assets/song/the_gioi_trong_em.mp3",
+            image: "./assets/img/the_gioi_trong_em.jpg"
+        },
+        {
             name: "Mai Mai Ben Nhau",
             singer: "Noo Phuoc Thinh",
             path: "./assets/song/mai_mai_ben_nhau.mp3",
@@ -54,12 +60,6 @@ const app = {
             singer: "Hari Won",
             path: "./assets/song/huong_dem_bay_xa.mp3",
             image: "./assets/img/huong_dem_bay_xa.png"
-        },
-        {
-            name: "Am Tham Ben Em",
-            singer: "Son Tung M-TP",
-            path: "./assets/song/am_tham_ben_em.mp3",
-            image: "./assets/img/am_tham_ben_em.jpg"
         },
         {
             name: "Ghe Qua",
