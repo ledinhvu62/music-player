@@ -32,22 +32,40 @@ const app = {
             image: "./assets/img/hai_muoi_hai.jpg",
         },
         {
+            name: "Lan Man",
+            singer: "Ronboogz",
+            path: "./assets/song/lan_man.mp3",
+            image: "./assets/img/lan_man.jpg",
+        },
+        {
+            name: "Hay De Toi Om Lay",
+            singer: "Kai Dinh x MIN x Grey D",
+            path: "./assets/song/de_toi_om_em_bang_giai_dieu_nay.mp3",
+            image: "./assets/img/de_toi_om_em_bang_giai_dieu_nay.jpg",
+        },
+        {
+            name: "Anh Se Cho Minh",
+            singer: "Khai Nguyen",
+            path: "./assets/song/anh_se_cho_minh.mp3",
+            image: "./assets/img/anh_se_cho_minh.jpg",
+        },
+        {
+            name: "Khi Ma",
+            singer: "Ronboogz",
+            path: "./assets/song/khi_ma.mp3",
+            image: "./assets/img/khi_ma.jpg",
+        },
+        {
             name: "ThichThich",
             singer: "Phuong Ly",
             path: "./assets/song/thichthich.mp3",
             image: "./assets/img/thichthich.jpg",
         },
         {
-            name: "The Gioi Trong Em",
-            singer: "Huong Ly",
-            path: "./assets/song/the_gioi_trong_em.mp3",
-            image: "./assets/img/the_gioi_trong_em.jpg",
-        },
-        {
-            name: "Mai Mai Ben Nhau",
-            singer: "Noo Phuoc Thinh",
-            path: "./assets/song/mai_mai_ben_nhau.mp3",
-            image: "./assets/img/mai_mai_ben_nhau.png",
+            name: "Ghe Qua",
+            singer: "Dick x Tofu x PC",
+            path: "./assets/song/ghe_qua.mp3",
+            image: "./assets/img/ghe_qua.jpg",
         },
         {
             name: "Loi Anh Chua The Noi",
@@ -60,12 +78,6 @@ const app = {
             singer: "Hari Won",
             path: "./assets/song/huong_dem_bay_xa.mp3",
             image: "./assets/img/huong_dem_bay_xa.png",
-        },
-        {
-            name: "Ghe Qua",
-            singer: "Dick x Tofu x PC",
-            path: "./assets/song/ghe_qua.mp3",
-            image: "./assets/img/ghe_qua.jpg",
         },
     ],
     setConfig(key, value) {
