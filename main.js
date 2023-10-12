@@ -32,6 +32,12 @@ const app = {
             image: "./assets/img/hai_muoi_hai.jpg",
         },
         {
+            name: "Yeu Nhau Nua Ngay",
+            singer: "Phan Manh Quynh",
+            path: "./assets/song/yeu_nhau_nua_ngay.mp3",
+            image: "./assets/img/yeu_nhau_nua_ngay.jpg",
+        },
+        {
             name: "Lan Man",
             singer: "Ronboogz",
             path: "./assets/song/lan_man.mp3",
@@ -66,18 +72,6 @@ const app = {
             singer: "Dick x Tofu x PC",
             path: "./assets/song/ghe_qua.mp3",
             image: "./assets/img/ghe_qua.jpg",
-        },
-        {
-            name: "Loi Anh Chua The Noi",
-            singer: "Chuppy",
-            path: "./assets/song/loi_anh_chua_the_noi.mp3",
-            image: "./assets/img/loi_anh_chua_the_noi.jpg",
-        },
-        {
-            name: "Huong Dem Bay Xa",
-            singer: "Hari Won",
-            path: "./assets/song/huong_dem_bay_xa.mp3",
-            image: "./assets/img/huong_dem_bay_xa.png",
         },
     ],
     setConfig(key, value) {
