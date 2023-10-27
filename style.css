@@ -1,11 +1,12 @@
 :root {
-    --primary-color: #ec1f55;
+    --primary-color: #f8648c;
+    --secondary-color: #999;
     --text-color: #333;
 }
   
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: inherit;
 }
   
@@ -14,8 +15,8 @@ body {
 }
   
 html {
-    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
   
 .player {
@@ -37,21 +38,21 @@ html {
 }
   
 .dashboard {
-    padding: 16px; /* sửa */
-    background-color: #fff;
     position: fixed;
     top: 0;
     width: 100%;
     max-width: 480px;
+    padding: 16px;
+    background-color: #fff;
     border-bottom: 1px solid #ebebeb;
 }
   
 /* Header */
-header { /* thêm */
-    text-align: center;
+header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
   
 header h4 {
@@ -64,9 +65,9 @@ header h2 {
     font-size: 20px;
 }
 
-header .btn { /* thêm */
-    color: var(--primary-color);
+header .btn {
     padding: 18px;
+    color: var(--primary-color);
     font-size: 18px;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
@@ -75,17 +76,17 @@ header .btn { /* thêm */
 /* CD */
 .cd {
     display: flex;
-    margin: 10px auto; /* sửa */
     width: 200px;
+    margin: 10px auto;
 }
   
 .cd-thumb {
     width: 100%;
+    margin: auto;
     padding-top: 100%;
-    border-radius: 50%;
     background-color: #333;
     background-size: cover;
-    margin: auto;
+    border-radius: 50%;
 }
   
 /* Control */
@@ -93,14 +94,14 @@ header .btn { /* thêm */
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 16px; /* sửa */
+    padding-top: 16px;
 }
   
 .control .btn {
-    color: #666;
     padding: 18px;
+    color: var(--secondary-color);
     font-size: 18px;
-    cursor: pointer; /* thêm */
+    cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 }
   
@@ -109,50 +110,47 @@ header .btn { /* thêm */
 }
   
 .control .btn-toggle-play {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    font-size: 24px;
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 56px;
+    height: 56px;
+    color: #fff;
+    font-size: 24px;
     background-color: var(--primary-color);
+    border-radius: 50%;
 }
   
 .progress {
-    width: 100%;
     -webkit-appearance: none;
+    width: 100%;
     height: 6px;
-    background: #d3d3d3;
+    background: #ddd;
     outline: none;
-    cursor: pointer; /* thêm */
+    cursor: pointer;
     -webkit-tap-highlight-color: transparent;
-    opacity: 0.7;
-    -webkit-transition: 0.2s;
-    transition: opacity 0.2s;
 }
   
 .progress::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 12px; /* sửa */
-    height: 12px; /* sửa */
-    border-radius: 50%; /* thêm */
+    width: 12px;
+    height: 12px;
     background-color: var(--primary-color);
+    border-radius: 50%;
     cursor: pointer;
 }
 
-.time { /* thêm */
+.time {
     display: flex;
     justify-content: space-between;
+    color: var(--secondary-color);
     font-size: 14px;
-    color: #666;
 }
 
 /* Playlist */
 .playlist {
-    margin-top: 446px; /* sửa */
+    margin-top: 446px;
     padding: 12px;
 }
   
@@ -160,11 +158,11 @@ header .btn { /* thêm */
     display: flex;
     align-items: center;
     margin-bottom: 12px;
-    background-color: #fff;
     padding: 8px 16px;
-    border-radius: 5px;
+    background-color: #fff;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-    cursor: pointer; /* thêm */
+    border-radius: 5px;
+    cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 }
   
@@ -185,9 +183,9 @@ header .btn { /* thêm */
 .song .thumb {
     width: 44px;
     height: 44px;
-    border-radius: 50%;
-    background-size: cover;
     margin: 0 8px;
+    background-size: cover;
+    border-radius: 50%;
 }
   
 .song .body {
@@ -196,17 +194,17 @@ header .btn { /* thêm */
 }
   
 .song .title {
-    font-size: 18px;
     color: var(--text-color);
+    font-size: 18px;
 }
   
 .song .author {
+    color: var(--secondary-color);
     font-size: 12px;
-    color: #999;
 }
   
 .song .option {
     padding: 16px 8px;
-    color: #999;
+    color: var(--secondary-color);
     font-size: 18px;
 }
